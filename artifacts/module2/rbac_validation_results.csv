@@ -1,0 +1,6 @@
+test,roles,passed,details
+Finance user cannot access HR,['finance'],True,"forbidden=hr, visible_departments=['finance']"
+HR user cannot access Finance,['hr'],True,"forbidden=finance, visible_departments=['hr']"
+Engineering user cannot access HR,['engineering'],True,"forbidden=hr, visible_departments=['engineering']"
+General employee cannot access Finance,['all_employees'],True,"forbidden=finance, visible_departments=['general']"
+C-Level can access all core departments,['ceo'],True,"required=['engineering', 'finance', 'general', 'hr', 'marketing'], missing=[]"

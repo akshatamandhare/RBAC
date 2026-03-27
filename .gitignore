@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.env
+.venv/
+venv/
+new_venv/
+.pytest_cache/
+.streamlit/
+artifacts/module2/reports/*.log

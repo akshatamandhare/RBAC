@@ -1,0 +1,23 @@
+services:
+  api:
+    build: .
+    container_name: rbac-api
+    ports:
+      - "8000:8000"
+    environment:
+      - RBAC_SECRET_KEY=${RBAC_SECRET_KEY:-change-me-in-production}
+      - RBAC_DATABASE_URL=sqlite:///./rbac.db
+      - LLM_PROVIDER=${LLM_PROVIDER:-mock}
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - OPENAI_MODEL=${OPENAI_MODEL:-gpt-4o-mini}
+
+  frontend:
+    build: .
+    container_name: rbac-frontend
+    command: ["streamlit", "run", "frontend/streamlit_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+    ports:
+      - "8501:8501"
+    environment:
+      - RBAC_API_BASE_URL=http://api:8000
+    depends_on:
+      - api

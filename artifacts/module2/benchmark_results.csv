@@ -1,0 +1,11 @@
+query,user_roles,department_filter,results_found,query_time_ms,top_similarity
+financial quarterly results,None,,5,3.36,0.3163
+engineering architecture,"['engineering', 'tech_lead']",,5,0.0,0.5416
+employee handbook policies,['hr'],general,0,12.12,0.0
+marketing strategy and campaigns,None,marketing,5,4.22,0.3026
+quarterly performance review,"['finance', 'leadership']",,5,0.0,0.2151
+technical documentation,['engineering'],,5,6.47,0.528
+company benefits,None,hr,5,2.03,0.0
+market analysis and trends,"['marketing', 'sales']",marketing,5,4.17,0.8061
+product roadmap,"['engineering', 'product']",,4,0.0,0.4335
+financial forecasting,"['finance', 'leadership']",,5,5.64,0.2893

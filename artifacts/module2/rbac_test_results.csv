@@ -1,0 +1,11 @@
+Test,Passed
+CEO access to all departments,True
+Finance blocked from engineering,True
+HR blocked from finance,True
+Everyone can access general,False
+Query normalization,True
+Keyword extraction,True
+Finance user gets finance results,True
+General employee blocked from finance,True
+HR blocked from engineering,True
+CEO can access all departments,False
