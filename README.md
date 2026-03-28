@@ -1,4 +1,4 @@
-# RBAC Secure RAG System
+# Company Internal Chatbot with Role-Based Access Control RBAC Secure RAG System
 
 Enterprise-ready role-based document retrieval and chat platform with:
 - FastAPI backend
