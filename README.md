@@ -59,8 +59,5 @@ python scripts/benchmark_system.py
 ## Deployment
 - Local: python main.py and streamlit run frontend/streamlit_app.py
 - Containerized: docker compose up --build
-- Environment template: .env.example
+- Environment template: .env
 
-## Notes
-- Demo video script is provided in docs/DEMO_VIDEO_SCRIPT.md.
-- Automated generation of a real video file is not supported in this environment.
