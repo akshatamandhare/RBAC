@@ -17,9 +17,7 @@
 ## Environment Variables
 - RBAC_SECRET_KEY: JWT signing secret
 - RBAC_DATABASE_URL: default sqlite:///./rbac.db
-- LLM_PROVIDER: mock or openai or gemini
-- OPENAI_API_KEY: required if LLM_PROVIDER=openai
-- OPENAI_MODEL: optional model override
+- LLM_PROVIDER: gemini or mock
 - GEMINI_API_KEY: required if LLM_PROVIDER=gemini
 - GEMINI_MODEL: optional model override (default gemini-1.5-flash)
 - RBAC_API_BASE_URL: frontend backend base URL
