@@ -52,15 +52,8 @@ python scripts/benchmark_system.py
 - docs/ARCHITECTURE.md
 - docs/API_SPEC.md
 - docs/DEPLOYMENT_GUIDE.md
-- docs/guides/ROLE_USER_GUIDE.md
-- docs/PERFORMANCE_SECURITY_REPORT.md
-- docs/DEMO_VIDEO_SCRIPT.md
 
 ## Deployment
 - Local: python main.py and streamlit run frontend/streamlit_app.py
 - Containerized: docker compose up --build
 - Environment template: .env.example
-
-## Notes
-- Demo video script is provided in docs/DEMO_VIDEO_SCRIPT.md.
-- Automated generation of a real video file is not supported in this environment.
