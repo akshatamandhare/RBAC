@@ -56,4 +56,9 @@ python scripts/benchmark_system.py
 ## Deployment
 - Local: python main.py and streamlit run frontend/streamlit_app.py
 - Containerized: docker compose up --build
+<<<<<<< HEAD
 - Environment template: .env.example
+=======
+- Environment template: .env
+
+>>>>>>> 669959f4d67cdefd4f7fb6803f421c014178ef29
