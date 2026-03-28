@@ -31,11 +31,3 @@ Use Dockerfile and docker-compose.yml in repository root.
   docker compose up --build
 
 Backend runs on 8000, frontend on 8501.
-
-## Production Recommendations
-- Use managed PostgreSQL instead of SQLite
-- Configure reverse proxy (Nginx)
-- Enforce HTTPS and secure headers
-- Rotate JWT signing secret regularly
-- Add rate limiting and WAF
-- Enable centralized logs and monitoring
